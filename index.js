@@ -15,8 +15,10 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  const current = document.querySelectorAll("#grand-node");
-  for (let i = 0; i < current.length; i++) {
-    console.log(current.querySelectorAll.innerHTML);
+  const ancestor = document.querySelectorAll("#grand-node");
+  const descendants = ancestor.querySelectorAll("div");
+  for (let i = 0; i < descendents.length; i++) {
+    var e = descendents[i];
+    console.log(e.innerHTML());
   }
 }
