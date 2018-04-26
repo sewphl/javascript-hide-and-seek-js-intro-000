@@ -1,3 +1,3 @@
 function getFirstSelector(selector) {
-  return(selector.shift);
+  return(document.querySelector("class"););
 }
