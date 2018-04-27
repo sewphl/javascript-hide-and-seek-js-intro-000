@@ -18,8 +18,7 @@ function deepestChild() {
   const ancestor = document.querySelectorAll("#grand-node");
   const desiredNode = ancestor.children[0];
   for (var i = 0; !desiredNode.children[i]; i) {
-    desiredNode = desiredNode.children[0]
-    }
-    return desiredNode;
+    desiredNode = desiredNode.children[0];
   }
+  return desiredNode;
 }
